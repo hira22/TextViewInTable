@@ -14,6 +14,7 @@
 		B662262626B2F92500542DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B662262426B2F92500542DAC /* LaunchScreen.storyboard */; };
 		B662263126B2F92500542DAC /* TextViewInTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B662263026B2F92500542DAC /* TextViewInTableTests.swift */; };
 		B662263C26B2F92500542DAC /* TextViewInTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B662263B26B2F92500542DAC /* TextViewInTableUITests.swift */; };
+		B662264A26B3749200542DAC /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B662264926B3749200542DAC /* TextViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B662263726B2F92500542DAC /* TextViewInTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewInTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B662263B26B2F92500542DAC /* TextViewInTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewInTableUITests.swift; sourceTree = "<group>"; };
 		B662263D26B2F92500542DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B662264926B3749200542DAC /* TextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B662261926B2F92300542DAC /* AppDelegate.swift */,
 				B662261B26B2F92300542DAC /* SceneDelegate.swift */,
 				B662261D26B2F92300542DAC /* ViewController.swift */,
+				B662264926B3749200542DAC /* TextViewCell.swift */,
 				B662262226B2F92500542DAC /* Assets.xcassets */,
 				B662262426B2F92500542DAC /* LaunchScreen.storyboard */,
 				B662262726B2F92500542DAC /* Info.plist */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B662261E26B2F92300542DAC /* ViewController.swift in Sources */,
+				B662264A26B3749200542DAC /* TextViewCell.swift in Sources */,
 				B662261A26B2F92300542DAC /* AppDelegate.swift in Sources */,
 				B662261C26B2F92300542DAC /* SceneDelegate.swift in Sources */,
 			);
